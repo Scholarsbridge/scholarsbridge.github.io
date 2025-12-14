@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #0f172a;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: white;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0b5fff;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  color: white;
+  max-width: 420px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+}
+
+.btn {
+  display: inline-block;
+  background: #0b5fff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.section {
+  padding: 60px 10%;
+}
+
+.section.alt {
+  background: #f1f5f9;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 16px;
+}
+
+.card p {
+  margin: 0 16px 16px;
+}
+
+.price {
+  font-weight: 700;
+  color: #0b5fff;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  background: #0f172a;
+  color: white;
+}
