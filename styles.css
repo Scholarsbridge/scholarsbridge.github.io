@@ -134,6 +134,9 @@ body {
   margin-top: 12px;
   font-weight: 600;
 }
+.btn:hover {
+  opacity: 0.9;
+}
 
 .cta-group {
   margin-top: 16px;
